@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="max-w-3xl text-center sm:text-left md:w-1/2">
         {/* Email with Icon */}
         <div className="flex items-center justify-center sm:justify-start text-xs sm:text-sm md:text-base font-medium mb-4">
-          <img src="src/assets/freddy-logo.png" alt="Logo" className="w-4 h-4 mr-2" />
+          <img src="../assets/freddy-logo.png" alt="Logo" className="w-4 h-4 mr-2" />
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=freddysamv@gmail.com&su=Inquiry%20from%20Portfolio&body=Hey%20I%20found%20you%20through%20your%20portfolio"
             target="_blank"
@@ -31,7 +31,7 @@ const HeroSection = () => {
         <h1 className="text-[24px] sm:text-[28px] md:text-4xl tracking-tight flex flex-wrap justify-center sm:justify-start items-center gap-x-2 md:gap-x-3 font-black">
           <span className="text-dark">Hi, I'm</span>{" "}
           <img
-            src="src/assets/profile.jpg"
+            src="../assets/profile.jpg"
             alt="Freddy Sam"
             className="w-8 h-8 sm:w-10 sm:h-10 md:w-18 md:h-18 rounded-3xl border-3 border-white border-orang shadow-lg"
           />

@@ -11,32 +11,32 @@ const SocialsCard = () => {
   const socialLinks = [
     {
       href: "https://wa.me/9360126618",
-      src: "src/assets/socials/whatsapp.png",
+      src: "../assets/socials/whatsapp.png",
       alt: "WhatsApp",
     },
     {
       href: "https://linkedin.com/in/your-linkedin-profile",
-      src: "src/assets/socials/linkedin.png",
+      src: "../assets/socials/linkedin.png",
       alt: "LinkedIn",
     },
     {
       href: "https://github.com/FreddySam09",
-      src: "src/assets/socials/github.png",
+      src: "../assets/socials/github.png",
       alt: "GitHub",
     },
     {
       href: "https://instagram.com/sam.fredx",
-      src: "src/assets/socials/instagram.png",
+      src: "../assets/socials/instagram.png",
       alt: "Instagram",
     },
     {
       href: "https://letterboxd.com/samfreddy/",
-      src: "src/assets/socials/letterboxd.jpeg",
+      src: "../assets/socials/letterboxd.jpeg",
       alt: "Letterboxd",
     },
     {
       href: "https://musicboard.app/sam.fredx",
-      src: "src/assets/socials/musicboard.jpg",
+      src: "../assets/socials/musicboard.jpg",
       alt: "Musicboard",
     },
   ];
@@ -49,7 +49,7 @@ const SocialsCard = () => {
           onClick={toggleIcons}
         >
           <img
-            src="src/assets/socials.png"
+            src="../assets/socials.png"
             alt="Socials Cover"
             className="absolute inset-0 w-full h-full object-cover rounded-3xl"
           />

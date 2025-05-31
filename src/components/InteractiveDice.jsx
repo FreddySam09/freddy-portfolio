@@ -117,12 +117,12 @@ const Dice = ({ onRollComplete }) => {
 
   // Load textures for each face
   const textures = [
-    useLoader(THREE.TextureLoader, "src/assets/dice/dice3.png"),
-    useLoader(THREE.TextureLoader, "src/assets/dice/dice4.png"),
-    useLoader(THREE.TextureLoader, "src/assets/dice/dice1.png"),
-    useLoader(THREE.TextureLoader, "src/assets/dice/dice6.png"),
-    useLoader(THREE.TextureLoader, "src/assets/dice/dice5.png"),
-    useLoader(THREE.TextureLoader, "src/assets/dice/dice2.png"),
+    useLoader(THREE.TextureLoader, "../assets/dice/dice3.png"),
+    useLoader(THREE.TextureLoader, "../assets/dice/dice4.png"),
+    useLoader(THREE.TextureLoader, "../assets/dice/dice1.png"),
+    useLoader(THREE.TextureLoader, "../assets/dice/dice6.png"),
+    useLoader(THREE.TextureLoader, "../assets/dice/dice5.png"),
+    useLoader(THREE.TextureLoader, "../assets/dice/dice2.png"),
   ];
 
   // Define materials for each face with whiter whites and shininess

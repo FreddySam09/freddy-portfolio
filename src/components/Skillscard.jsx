@@ -10,26 +10,26 @@ const skillCategories = {
 };
 
 const skillsData = {
-  React: { icon: "src/assets/skills/react.svg", desc: "JavaScript library for UI" },
-  Flask: { icon: "src/assets/skills/flask.png", desc: "Python-based Backend" },
-  "Node.js": { icon: "src/assets/skills/node.png", desc: "Backend runtime" },
-  "PlayCanvas WebGL": { icon: "src/assets/skills/playcanvas.jpeg", desc: "WebGL game engine" },
-  "Unity Engine": { icon: "src/assets/skills/unity.png", desc: "High-level game engine" },
-  Tailwind: { icon: "src/assets/skills/tailwind.png", desc: "Utility-first CSS framework" },
-  "Material UI": { icon: "src/assets/skills/mui.jpeg", desc: "Classy CSS framework" },
-  "Microcontrollers": { icon: "src/assets/skills/mc.jpg", desc: "Raspberry Pi, PIC24 etc..." },
-  "Proteus": { icon: "src/assets/skills/proteus.png", desc: "Circuit Design & Simulations" },
-  "Xilinx": { icon: "src/assets/skills/xilinx.png", desc: "Verilog Design" },
-  "CST Microwave Studio": { icon: "src/assets/skills/cst.png", desc: "Antenna Designs & Simulations" },
-  Figma: { icon: "src/assets/skills/figma.png", desc: "UI/UX design tool" },
-  "Adobe": { icon: "src/assets/skills/adobe.png", desc: "Photoshop, Illustrator, Lightroom, Premiere Pro" },
-  "Affinity": { icon: "src/assets/skills/affinity.png", desc: "Designer, Photo, Publisher" },
-  "Blender": { icon: "src/assets/skills/blender.png", desc: "3D Modelling & Animation" },
-  Javascript: { icon: "src/assets/skills/js.png", desc: "Versatile web language" },
-  C: { icon: "src/assets/skills/c.png", desc: "The Base Programming Language" },
-  Python: { icon: "src/assets/skills/py.png", desc: "Simple high-level language" },
-  "C++": { icon: "src/assets/skills/cpp.png", desc: "Versatile object-oriented language" },
-  "Three js": { icon: "src/assets/skills/3js.svg", desc: "3D WebGL Framework" },
+  React: { icon: "../assets/skills/react.svg", desc: "JavaScript library for UI" },
+  Flask: { icon: "../assets/skills/flask.png", desc: "Python-based Backend" },
+  "Node.js": { icon: "../assets/skills/node.png", desc: "Backend runtime" },
+  "PlayCanvas WebGL": { icon: "../assets/skills/playcanvas.jpeg", desc: "WebGL game engine" },
+  "Unity Engine": { icon: "../assets/skills/unity.png", desc: "High-level game engine" },
+  Tailwind: { icon: "../assets/skills/tailwind.png", desc: "Utility-first CSS framework" },
+  "Material UI": { icon: "../assets/skills/mui.jpeg", desc: "Classy CSS framework" },
+  "Microcontrollers": { icon: "../assets/skills/mc.jpg", desc: "Raspberry Pi, PIC24 etc..." },
+  "Proteus": { icon: "../assets/skills/proteus.png", desc: "Circuit Design & Simulations" },
+  "Xilinx": { icon: "../assets/skills/xilinx.png", desc: "Verilog Design" },
+  "CST Microwave Studio": { icon: "../assets/skills/cst.png", desc: "Antenna Designs & Simulations" },
+  Figma: { icon: "../assets/skills/figma.png", desc: "UI/UX design tool" },
+  "Adobe": { icon: "../assets/skills/adobe.png", desc: "Photoshop, Illustrator, Lightroom, Premiere Pro" },
+  "Affinity": { icon: "../assets/skills/affinity.png", desc: "Designer, Photo, Publisher" },
+  "Blender": { icon: "../assets/skills/blender.png", desc: "3D Modelling & Animation" },
+  Javascript: { icon: "../assets/skills/js.png", desc: "Versatile web language" },
+  C: { icon: "../assets/skills/c.png", desc: "The Base Programming Language" },
+  Python: { icon: "../assets/skills/py.png", desc: "Simple high-level language" },
+  "C++": { icon: "../assets/skills/cpp.png", desc: "Versatile object-oriented language" },
+  "Three js": { icon: "../assets/skills/3js.svg", desc: "3D WebGL Framework" },
 };
 
 const SkillsCard = () => {
@@ -86,7 +86,7 @@ const SkillsCard = () => {
         className="relative bg-light border-3 border-white drop-shadow-lg rounded-3xl w-64 sm:w-72 h-72 sm:h-80 flex flex-col text-left cursor-pointer overflow-hidden hover:drop-shadow-xl"
       >
         <img
-          src="src/assets/skills-bg.png"
+          src="../assets/skills-bg.png"
           alt="Skills Background"
           className="absolute inset-0 w-full h-full object-cover rounded-3xl"
         />

@@ -5,43 +5,43 @@ const albums = [
   {
     title: "Kagayaki (かがやき)",
     artist: "Masakatsu Takagi",
-    cover: "src/assets/covers/kagayaki.jpeg",
+    cover: "../assets/covers/kagayaki.jpeg",
     description: "A soothing piano-driven album that feels like a warm sunrise.",
   },
   {
     title: "Lift Your Skinny Fists Like Antennas to Heaven",
     artist: "Godspeed You! Black Emperor",
-    cover: "src/assets/covers/gybe.jpg",
+    cover: "../assets/covers/gybe.jpg",
     description: "A post-rock masterpiece filled with emotion and grandeur.",
   },
   {
     title: "De Todas Las Flores",
     artist: "Natalia Lafourcade",
-    cover: "src/assets/covers/detodas.jpg",
+    cover: "../assets/covers/detodas.jpg",
     description: "A poetic and rich exploration of Latin folk music.",
   },
   {
     title: "To Pimp a Butterfly",
     artist: "Kendrick Lamar",
-    cover: "src/assets/covers/tpab.jpeg",
+    cover: "../assets/covers/tpab.jpeg",
     description: "A groundbreaking hip-hop album blending jazz, funk, and political messages.",
   },
   {
     title: "Nurture",
     artist: "Porter Robinson",
-    cover: "src/assets/covers/nurture.jpeg",
+    cover: "../assets/covers/nurture.jpeg",
     description: "An emotional electronic album about self-acceptance and creativity.",
   },
   {
     title: "Vespertine",
     artist: "Bjork",
-    cover: "src/assets/covers/vespertine.jpeg",
+    cover: "../assets/covers/vespertine.jpeg",
     description: "A delicate, intimate soundscape filled with intricate textures.",
   },
   {
     title: "gift-live at sogetsu hall",
     artist: "Ichiko Aoba",
-    cover: "src/assets/covers/gift.jpeg",
+    cover: "../assets/covers/gift.jpeg",
     description: "A breathtaking live performance with ethereal acoustic melodies.",
   },
 ];
@@ -80,7 +80,7 @@ const MusicCard = () => {
         className="relative bg-light border-white border-3 drop-shadow-lg rounded-3xl w-64 sm:w-72 h-72 sm:h-80 flex flex-col text-left cursor-pointer transition-transform hover:scale-105 hover:drop-shadow-xl overflow-hidden"
       >
         <img
-          src="src/assets/music.png"
+          src="../assets/music.png"
           alt="Music Cover"
           className="absolute inset-0 w-full h-full object-cover rounded-3xl"
         />

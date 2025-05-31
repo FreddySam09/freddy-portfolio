@@ -14,14 +14,14 @@ const ExperienceCard = () => {
       role: "Factory Intern at Nanotechnologies",
       details: "On-site - 15 Days",
       description: "Worked on Control Panels and PLC Programming.",
-      images: ["src/assets/experience/nano.jpg", "src/assets/experience/nano-2.jpg"],
+      images: ["../assets/experience/nano.jpg", "../assets/experience/nano-2.jpg"],
     },
     {
       year: "April 2024",
       role: "Intern at NIOT",
       details: "Hybrid - 45 Days",
       description: "Worked PIC24 based AUV Payload Communication Protocols.",
-      images: ["src/assets/experience/niot-1.jpg", "src/assets/experience/niot-2.jpg"],
+      images: ["../assets/experience/niot-1.jpg", "../assets/experience/niot-2.jpg"],
     },
     {
       year: "2024",
