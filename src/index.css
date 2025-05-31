@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: "Satoshi", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000000;
+  background-color: #F8F8F8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 2rem; /* Default for all screens */
+  padding: 2rem;
+}
+
+/* For medium screens like tablets */
+@media (max-width: 1024px) {
+  body {
+    margin: 1.5rem;
+  }
+}
+
+/* For small screens like mobile devices */
+@media (max-width: 768px) {
+  body {
+    margin: 1rem;
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    margin: 0.5rem;
+  }
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Stadium Display';
+  src: url('/src/assets/fonts/Stadium Display 400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --color-dark: #000000;
+  --color-light: #F8F8F8;
+  --color-orang: #F26711;
+  --color-grayish: #B7B7B7;
+  --font-satoshi: "Satoshi";
+  --color-greenish: #05FE84;
+  --color-lightgreenish: #C5FCDE;
+  --font-anton: "Anton", sans-serif;
+  --font-stadium: "Stadium Display", sans-serif;
+}
